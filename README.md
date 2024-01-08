@@ -84,7 +84,7 @@ You can then access the API routes using the likes of Insomnia application or al
 
 ## Video Walkthrough
 
-[Link to video walkthrough of API routes' endpoints / CRUD operations being used with E-Commerce Back-En ]()
+[Link to video walkthrough of API routes' endpoints / CRUD operations being used with E-Commerce Back-End ](https://drive.google.com/file/d/1nlBbcRBsEbeafl8E5FNiLevvL-jrJZC0/view)
 
       
 ## Questions
@@ -98,43 +98,3 @@ You can then access the API routes using the likes of Insomnia application or al
   GitHub: [Lllewisreynolds](https://github.com/Lllewisreynolds)
 
   Email: [lsreynolds108@gmail.com](mailto:lsreynolds108@gmail.com)
-
-
-WHEN I open API GET routes in Insomnia for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
-THEN I am able to successfully create, update, and delete data in my database
-
-## Mock-Up
-
-The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia:
-
-![In Insomnia, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./Assets/13-orm-homework-demo-01.gif)
-
-The following animation shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
-
-![In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./Assets/13-orm-homework-demo-02.gif)
-
-The following animation shows the application's POST, PUT, and DELETE routes for categories being tested in Insomnia:
-
-![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
-
-Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
-
-### Fill Out the API Routes to Perform RESTful CRUD Operations
-
-Fill out the unfinished routes in `product-routes.js`, `tag-routes.js`, and `category-routes.js` to perform create, read, update, and delete operations using your Sequelize models.
-
-### Walkthrough Video: 37%
-
-* The walkthrough video must demonstrate how to create the schema from the MySQL shell.
-
-* The walkthrough video must demonstrate how to seed the database from the command line.
-
-* The walkthrough video must demonstrate how to start the application’s server.
-
-* The walkthrough video must demonstrate GET routes for all categories, all products, and all tags being tested in Insomnia.
-
-* The walkthrough video must demonstrate GET routes for a single category, a single product, and a single tag being tested in Insomnia.
-
-* The walkthrough video must demonstrate POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia.
